@@ -1,0 +1,6 @@
+sentence=input("Enter a sentence:")
+def countWords(str):
+    words=str.split()
+    print(words)
+    return len(words)
+print(countWords(sentence))
